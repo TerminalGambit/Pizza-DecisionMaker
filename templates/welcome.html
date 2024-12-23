@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Pizza Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome-style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>🍕 Welcome to the Pizza Quiz! 🇮🇹</h1>
+    </header>
+    <main>
+        <div class="intro-container">
+            <p class="intro-text">Discover your perfect pizza by answering a few simple questions!</p>
+            <a href="{{ url_for('question', question_key='vegan') }}" class="start-button">Start Quiz</a>
+        </div>
+    </main>
+    <footer>
+        <p>Buon appetito! 🍴</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* General Page Style */
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, #f8f4e3, #f0d6b1); /* Subtle warm gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d32f2f; /* Italian red */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+/* Progress Bar */
+.progress-container {
+    width: 90%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin: 20px auto;
+    height: 10px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #388e3c; /* Italian green */
+    transition: width 0.3s ease-in-out;
+}
+
+/* Quiz Card */
+.quiz-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-card h2 {
+    font-family: 'Palatino', serif;
+    color: #d32f2f; /* Italian red */
+    margin-bottom: 20px;
+}
+
+/* Navigation Buttons */
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation button {
+    background-color: #388e3c; /* Italian green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.navigation button:hover {
+    background-color: #2e7d32;
+}
+
+.navigation button#prev-btn {
+    background-color: #d32f2f; /* Italian red */
+}
+
+.navigation button#prev-btn:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+.next-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #218838;
+}

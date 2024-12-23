@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Marinara",
+        "ingredients": [
+            "Tomato sauce",
+            "Garlic",
+            "Oregano"
+        ],
+        "price": "€11.00",
+        "vegetarian": true,
+        "vegan": true,
+        "allergens": ["Gluten"]
+    },
+    {
+        "name": "Napoletana",
+        "ingredients": [
+            "Tomato sauce",
+            "Capers",
+            "Anchovies",
+            "Olives",
+            "Oregano"
+        ],
+        "price": "€12.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Fish"]
+    },
+    {
+        "name": "Margherita",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Basil"
+        ],
+        "price": "€13.00",
+        "vegetarian": true,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Bufalina",
+        "ingredients": [
+            "Tomato sauce",
+            "Buffalo mozzarella",
+            "Basil"
+        ],
+        "price": "€16.00",
+        "vegetarian": true,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Regina",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Cooked ham",
+            "Button mushrooms",
+            "Basil"
+        ],
+        "price": "€15.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Vegetariana",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Eggplants",
+            "Zucchini",
+            "Peppers",
+            "Basil"
+        ],
+        "price": "€16.00",
+        "vegetarian": true,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Diavola",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Spicy salami"
+        ],
+        "price": "€15.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Campione",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Cooked ham",
+            "Eggplants",
+            "Basil"
+        ],
+        "price": "€15.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Quattro Formaggi",
+        "ingredients": [
+            "Mozzarella",
+            "Camembert",
+            "Gorgonzola",
+            "Parmesan",
+            "Basil"
+        ],
+        "price": "€15.00",
+        "vegetarian": true,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Mimosa",
+        "ingredients": [
+            "Mozzarella",
+            "Cooked ham",
+            "Corn",
+            "Fresh cream"
+        ],
+        "price": "€15.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Calzone",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Cooked ham",
+            "Basil"
+        ],
+        "price": "€15.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Calzone Vecchia Napoli",
+        "ingredients": [
+            "Tomato sauce",
+            "Smoked mozzarella",
+            "Buffalo ricotta",
+            "Neapolitan salami",
+            "Pepper"
+        ],
+        "price": "€17.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Pescatore",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Tuna",
+            "Tropea onions",
+            "Black olives",
+            "Basil"
+        ],
+        "price": "€16.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Fish", "Milk"]
+    },
+    {
+        "name": "Quattro Stagioni",
+        "ingredients": [
+            "Tomato sauce",
+            "Mozzarella",
+            "Cooked ham",
+            "Mushrooms",
+            "Artichokes",
+            "Olives"
+        ],
+        "price": "€16.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Contadina",
+        "ingredients": [
+            "Mozzarella",
+            "Parma ham",
+            "Gorgonzola",
+            "Basil"
+        ],
+        "price": "€17.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Gustosa",
+        "ingredients": [
+            "Mozzarella",
+            "Artichokes",
+            "Onion",
+            "Speck"
+        ],
+        "price": "€16.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "La Pugliese",
+        "ingredients": [
+            "Focaccia",
+            "Buffalo burrata",
+            "Arugula",
+            "Fresh cherry tomatoes",
+            "Oregano"
+        ],
+        "price": "€18.00",
+        "vegetarian": true,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    },
+    {
+        "name": "Tronchetto Napoletano",
+        "ingredients": [
+            "Stuffed pizza with Mozzarella",
+            "Brie",
+            "Parmesan",
+            "Edam",
+            "Garnished with Parma ham",
+            "Arugula",
+            "Parmesan shavings"
+        ],
+        "price": "€20.00",
+        "vegetarian": false,
+        "vegan": false,
+        "allergens": ["Gluten", "Milk"]
+    }
+]

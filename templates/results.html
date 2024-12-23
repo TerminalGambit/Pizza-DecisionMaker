@@ -1,0 +1,32 @@
+<!-- templates/results.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Pizza Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results-style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Top Pizza Recommendations 🍕</h1>
+    </header>
+    {% if pizzas %}
+        <ol>
+        {% for pizza in pizzas %}
+            <li>
+                <h3>{{ pizza.name }} (Score: {{ pizza.score }})</h3>
+                <p><strong>Ingredients:</strong> {{ pizza.ingredients | join(', ') }}</p>
+                <p><strong>Price:</strong> {{ pizza.price }}</p>
+            </li>
+        {% endfor %}
+        </ol>
+    {% else %}
+        <p>Sorry, no pizzas match your preferences!</p>
+    {% endif %}
+    <a href="{{ url_for('welcome') }}">Take the Quiz Again</a>
+    <footer>
+        <p>Arrivederci! 🇮🇹</p>
+    </footer>
+</body>
+</html>
